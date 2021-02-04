@@ -23,11 +23,11 @@ app.use(bodyParser.json());
 
 // DB
 const db = require("./config/keys").mongoURI;
-mongoose.connect(db, {userNewUrlParser: true}
+mongoose.connect(db, {useNewUrlParser: true}
   ) 
   .then(() => console.log("MongoDB successfully connected"))
   .catch(err => console.log(err));
 
 const port = process.env.PORT || 3000;
 
-app.listen(port () => console.log('sup!'))
+app.listen(port, () => console.log('sup! 🚀 🚀'))
