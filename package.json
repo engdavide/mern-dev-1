@@ -1,0 +1,19 @@
+{
+  "name": "mern-dev-1",
+  "version": "1.0.0",
+  "description": "mern playground",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/engdavide/mern-dev-1.git"
+  },
+  "author": "david eng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/engdavide/mern-dev-1/issues"
+  },
+  "homepage": "https://github.com/engdavide/mern-dev-1#readme"
+}
